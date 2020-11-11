@@ -22,6 +22,6 @@ def barajar(lista):
         lista[i] = lista[nueva_poz]
         lista[nueva_poz] = aux
     return lista
-
-print(crearBaraja())
-print(barajar(crearBaraja()))
+if __name__ == "__main__":
+    print(crearBaraja())
+    print(barajar(crearBaraja()))
